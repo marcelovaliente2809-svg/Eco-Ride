@@ -8,7 +8,7 @@ def load_models():
     ohe = joblib.load('one_hot_encoder_region.joblib')
     scaler_standard = joblib.load('standard_scaler_uso_mensual_km.joblib')
     scaler_minmax = joblib.load('minmax_scaler_soporte_tickets.joblib')
-    modelo = joblib.load('modelo churn.pkl')
+    modelo = joblib.load('modelo_churn.pkl')
     return ohe, scaler_standard, scaler_minmax, modelo
 
 ohe, scaler_standard, scaler_minmax, modelo_churn = load_models()
