@@ -4,7 +4,7 @@ import pandas as pd
 import joblib
 
 # Load the trained model, preprocessing pipeline, and label encoder
-model = joblib.load('modelo churn.pkl')
+model = joblib.load('modelo_churn.pkl')
 pipeline_preproc = joblib.load('churn_pipeline_preproc.pkl')
 label_encoder_churn = joblib.load('churn_label_encoder.pkl')
 
